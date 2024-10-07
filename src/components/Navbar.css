@@ -1,0 +1,76 @@
+/* Container for the entire navbar */
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ; 
+    background-color: #333;   /* Dark background color */
+    color: white;             /* Text color */
+    padding: 15px 20px;       /* Spacing inside the navbar */
+    top: 0;                   /* Ensure it's at the top */
+}
+
+/* Navbar brand styling (e.g., Home link) */
+.navbar-brand a {
+    color: white;
+    font-size: 1.5rem;        /* Slightly larger font size */
+    font-weight: bold;        /* Bold the brand link */
+    text-decoration: none;    /* Remove underline from links */
+    padding-right: 20px;      /* Spacing between brand and other links */
+}
+
+/* List item style (individual navbar links) */
+.navbar div {
+    display: flex;            /* Align links in a row */
+    list-style: none;         /* Remove default bullet points */
+}
+
+/* Styling for links inside the navbar */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;          /* Spacing between links */
+    font-size: 1.1rem;
+}
+
+/* Hover effect for links */
+.navbar a:hover {
+    color: #ddd;              /* Slightly lighter color when hovered */
+    transition: color 0.3s ease;
+}
+
+/* Ensure navbar links are aligned properly */
+.navbar li {
+    list-style: none;         /* Remove bullets */
+    display: inline-block;    /* Make list items inline */
+}
+
+
+@media (max-width: 769px) {
+    .navbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ; 
+    }
+
+    .navbar a {
+        padding: 10px 0;       /* Adjust padding for smaller screens */
+    }
+}
+@media (max-width: 426px) {
+    .navbar {
+            display: block;
+          align-items: flex-start;
+    }
+
+    .navbar a {
+        padding: 10px 0;       /* Adjust padding for smaller screens */
+    }
+}
+@media (max-width: 376px) {
+    .navbar {
+            display: block;
+          align-items: flex-start;
+    }
+
+    .navbar a {
+        padding: 10px 0;       /* Adjust padding for smaller screens */
+    }
+}
