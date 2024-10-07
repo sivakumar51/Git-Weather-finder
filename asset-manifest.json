@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MultiFinder/static/css/main.94f9299b.css",
+    "main.js": "/MultiFinder/static/js/main.9e485476.js",
+    "static/js/453.1624759c.chunk.js": "/MultiFinder/static/js/453.1624759c.chunk.js",
+    "index.html": "/MultiFinder/index.html",
+    "main.94f9299b.css.map": "/MultiFinder/static/css/main.94f9299b.css.map",
+    "main.9e485476.js.map": "/MultiFinder/static/js/main.9e485476.js.map",
+    "453.1624759c.chunk.js.map": "/MultiFinder/static/js/453.1624759c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94f9299b.css",
+    "static/js/main.9e485476.js"
+  ]
+}
